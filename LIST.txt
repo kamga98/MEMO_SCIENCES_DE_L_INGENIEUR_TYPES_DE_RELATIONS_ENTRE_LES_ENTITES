@@ -1,0 +1,39 @@
+
+
+* OneToMany 
+
+Exemple :      
+
+Un catégorie peut permettre de lister une pléthore de produits différents. // Dans le sens de la relation. 
+Une pléthore de produits différents peut être associée à une catégorie. // Dans le sens inverse de la relation. 
+
+Une catétogie (one) -> une pléthore de produits (many)
+Une plétore de produits (many) -> Une catétogie (one) 
+
+
+* OneToOne  
+
+Exemple :  
+   
+Une marque de véhicules doit correspondre à un constructeur en particulier.
+Un constructeur doit correspondre à une marque de véhicules.
+
+  
+* ManyToMany 
+
+Exemple :  
+
+Plusieurs joueurs de foot peuvent avoir des sponsors différents. // Messi et Neymar peuvent être sponsorisés par Nike & Adidas
+
+Des sponsors différents peuvent soutenir plusieurs joueurs de foot différents. // Dans le sens inverse de la relation.
+ 
+ 
+* ManyToOne  
+
+Plusieurs planètes peuvent appartenir à une même galaxie. // La terre, Mars, Jupiter, Neptune, appartiennent à la Voie Lactée. 
+
+Dans une galaxie on peut retrouver plusieurs planètes. // Dans le sens inverse de la relation.
+
+
+ 
+ 
