@@ -1,0 +1,24 @@
+
+
+Lorsque nous souhaitons modifier une entité (en ajoutant une propriété), nous devons préciser
+le type de la propriété à ajouter.
+
+Ce type peut être : relation, string, integer, float, boolean, decimal, boolean, date, datetime, 
+simple, array, etc.
+
+Dans le cas des relations ManyToMany, ManyToOne, OneToMany, OneToOne, la propriété ajoutée
+dans une classe est de type "relation". La capture d'écran "EXAMPLE OF RELATION BETWEEN PRODUCT AND NATURE_OF_THE_PRODUCT"
+en est la preuve.
+
+
+  
+
+
+
+
+
+
+
+ 
+
+    
